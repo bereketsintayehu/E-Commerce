@@ -1,0 +1,57 @@
+{
+  "name": "e-commercebackend",
+  "version": "1.0.0",
+  "description": "An Express.js and Mongoose-based e-commerce backend for online stores, providing features like user authentication, product management, shopping carts, and secure payment processing. Ideal for creating a full-fledged e-commerceplatform.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "e-commerce backend"
+  },
+  "keywords": [
+    "E-commerce",
+    "Backend",
+    "Express.js",
+    "Mongoose",
+    "Node.js",
+    "REST API",
+    "User Authentication",
+    "Product Management",
+    "Shopping Cart",
+    "Order Processing",
+    "User Profiles",
+    "Payment Processing",
+    "Product Reviews",
+    "Security",
+    "Scalability",
+    "Database",
+    "Authentication",
+    "Web Development",
+    "Online Store",
+    "Backend Development",
+    "Node.js Framework",
+    "Express.js Server",
+    "Mongoose Schema",
+    "RESTful API",
+    "Payment Gateway Integration",
+    "User Accounts",
+    "User Authorization",
+    "Cart Management",
+    "Inventory Control",
+    "Product Search",
+    "Authentication and Authorization",
+    "Secure Transactions",
+    "Payment Gateway",
+    "Order Management",
+    "Product Catalog"
+  ],
+  "author": "Bereket Sintayehu",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}
