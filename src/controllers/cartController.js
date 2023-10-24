@@ -37,4 +37,24 @@ router.delete('/remove-from-cart/:productId', (req, res) => {
   }
 });
 
+router.put('/update-cart/:productId', (req, res) => {
+    try {
+      const { productId } = req.params;
+      const { quantity } = req.body;
+  
+      const cartItem = shoppingCart.find(item => item.product.id === productId);
+  
+      if (!cartItem) {
+        return res.status(404).json({ error: 'Product not found in the cart.' });
+      }
+  
+      cartItem.quantity = quantity;
+  
+      res.status(200).json({ message: 'Product quantity updated in the cart' });
+    } catch (error) {
+      res.status(400).json({ error: 'Failed to update the product quantity in the cart.' });
+    }
+  });
+  
+
 module.exports = router;
